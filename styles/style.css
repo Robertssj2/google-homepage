@@ -7,8 +7,9 @@ body {
         Header+Body+Footer = 520px */
 }
 
-.search_bar {
+#user_search {
     /* mouseover highlight on search bar */
+    width: 85%;
 }
 
 button {
@@ -24,4 +25,13 @@ footer {
 .logo{
     width: 210px;
     height: auto;
+}
+
+.search_container {
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+    padding: 2px;
 }
