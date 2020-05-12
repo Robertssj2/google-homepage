@@ -1,11 +1,22 @@
+header {
+    /* Not always on top */
+}
+
 body {
-        /* Body min-width= 975px */
+        /* Body min-width= 975px
+        Header+Body+Footer = 520px */
 }
 
 .search_bar {
     /* mouseover highlight on search bar */
 }
 
+button {
+    /* mouseover effect darkens border and letters */
+}
+
 footer {
-    /* background-color: grey; */
+    /* background-color: grey; 
+    Height = 40px
+    Always on bottom */
 }
