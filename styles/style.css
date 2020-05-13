@@ -10,6 +10,38 @@ header {
     align-items: center;
 }
 
+body {
+    /* Body min-width= 975px
+    Header+Body+Footer = 520px */
+font-family: arial,sans-serif;
+min-width: 975px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    line-height: 3;
+    color: #5f5f5f;
+}
+a:link {
+    background: yellow;
+
+}
+a:visited {
+    background: yellow;
+
+}
+a:hover {
+    background: orange;
+
+}
+a:active {
+    background: red;
+    color: white;
+
+}
 .hfcontain {
     display: flex;
     flex-flow: row wrap;
@@ -26,14 +58,6 @@ header {
 }
 .fright {
     width: 250px;
-}
-
-body {
-        /* Body min-width= 975px
-        Header+Body+Footer = 520px */
-    font-family: arial,sans-serif;
-
-    min-width: 975px;
 }
 
 #user_search {
