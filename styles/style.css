@@ -10,6 +10,8 @@ body {
 #user_search {
     /* mouseover highlight on search bar */
     width: 85%;
+    height: 100%;
+    border: none;
 }
 
 button {
