@@ -16,6 +16,7 @@ header {
 body {
         /* Body min-width= 975px
         Header+Body+Footer = 520px */
+    min-width: 975px;
 }
 
 #user_search {
@@ -33,6 +34,12 @@ footer {
     /* background-color: grey; 
     Height = 40px
     Always on bottom */
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    height: 30px;
+    width: 100%;
+
 }
 
 .logo{
