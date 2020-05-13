@@ -1,5 +1,16 @@
 header {
-    /* Not always on top */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-left {
+    
+}
+
+.head-right {
+
 }
 
 body {
