@@ -8,13 +8,13 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.1rem;
 }
 
 body {
     /* Body min-width= 975px
     Header+Body+Footer = 520px */
-font-family: arial,sans-serif;
-min-width: 975px;
+    min-width: 975px;
 }
 
 a {
@@ -26,22 +26,15 @@ a {
     color: #5f5f5f;
 }
 a:link {
-    background: yellow;
-
 }
 a:visited {
-    background: yellow;
-
+    color: #5f5f5f;
 }
 a:hover {
-    background: orange;
-
 }
 a:active {
-    background: red;
-    color: white;
-
 }
+
 .hfcontain {
     display: flex;
     flex-flow: row wrap;
@@ -84,7 +77,8 @@ footer {
     background-color: #f2f2f2;
     height: 30px;
     width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, .1)
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    font-size: 1.2rem; 
 }
 
 .logo{
@@ -94,9 +88,9 @@ footer {
 
 .search_container {
     text-align: center;
-    border: 1px solid grey;
+    border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 20px;
-    width: 500px;
+    width: 400px;
     height: 30px;
     padding: 2px;
 }
