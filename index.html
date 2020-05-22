@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="styles/style.css" rel="stylesheet">
-        <link href="scripts/main.js" rel="stylesheet">
-        <!-- font-family: arial,sans-serif; -->
         <title>Google</title>
+        <link href="styles/style.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="hfcontain hleft">
-                <!-- Left Side -->
-                <a href="#">About</a>
-                <a href="#">Store</a>
+            <div class="hcontain">
+                <div class="hfdiv"><a href="#">About</a></div>
+                <div class="hfdiv"><a href="#">Store</a></div>
             </div>
-            <div class="hfcontain hright">
-                <!-- Right Side -->
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-                <img src="#" alt="App Link img">
-                <img src="#" alt="Login Link img">
-                <!-- Insert Google app link -->
-                <!-- Insert Google login link -->
+            <div class="hcontain">
+                <div class="hfdiv"><a href="#">Gmail</a></div>
+                <div class="hfdiv"><a href="#">Images</a></div>
+                <div class="hfdiv">
+                    <a href="#">
+                        <div class="block">
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                        </div>
+                    </a></div>
+                <div class="hfdiv avatar"><a href="#"><img id="ppic" src="https://utulsa.edu/wp-content/uploads/2018/08/generic-avatar.jpg"></a></div>
             </div>
         </header>
         <main>
-            <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
-            <form>
-                <!-- Search Bar with magnifying glass img and mouseover highlight -->
-                <div class="search_container">
-                <input type="text" id="user_search" name="user_search" required><br>
+            <div class="search_field">
+                <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+                <div class="searchbar">
+                    <img id="mglass" src="https://image.flaticon.com/icons/svg/49/49116.svg">
+                    <input type="text" id="user_search" name="user_search">
+                </div><br>
+                <div class="bcontain">
+                    <button class="search_buttons">
+                        Google Search
+                    </button>
+                    <button class="search_buttons">
+                        I'm Feeling Lucky
+                    </button>
                 </div>
-                <button id="google_search">
-                    Google Search
-                </button>
-                <button id="lucky_search">
-                    I'm Feeling Lucky
-                </button>
-            </form>
-            <img src="#" alt="possibly changing img today it was an easter egg">
+            </div>
+
         </main>
         <footer>
-            <div class="hfcontain fleft">
-                <!-- Left Side -->
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search works</a>
+            <div class="fcontain">
+                <div class="hfdiv"><a href="#">Advertising</a></div>
+                <div class="hfdiv"><a href="#">Business</a></div>
+                <div class="hfdiv"><a href="#">How Search Works</a></div>
             </div>
-            <div class="hfcontain fright">
-                <!-- Right Side -->
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
+            <div class="fcontain">
+                <div class="hfdiv"><a href="#">Privacy</a></div>
+                <div class="hfdiv"><a href="#">Terms</a></div>
+                <div class="hfdiv"><a href="#">Settings</a></div>
             </div>
         </footer>
     </body>
